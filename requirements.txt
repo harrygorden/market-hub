@@ -1,0 +1,24 @@
+# Core Dependencies
+anvil-uplink==0.6.3
+python-dotenv==1.0.1
+
+# UI and Console
+rich==13.7.1
+questionary==2.0.1
+
+# HTTP and API
+requests==2.31.0
+
+# Data Processing
+pandas==2.2.0
+tabulate==0.9.0
+
+# Date/Time
+python-dateutil==2.8.2
+
+# Monitoring and Statistics
+psutil==5.9.8
+
+# Optional: For advanced features
+colorama==0.4.6  # Windows color support
+pyyaml==6.0.1    # Configuration files
