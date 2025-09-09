@@ -1,5 +1,6 @@
 from ._anvil_designer import EventsTemplate
 from anvil import *
+import anvil.server
 
 class Events(EventsTemplate):
   def __init__(self, **properties):

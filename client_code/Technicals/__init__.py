@@ -1,5 +1,6 @@
 from ._anvil_designer import TechnicalsTemplate
 from anvil import *
+import anvil.server
 
 class Technicals(TechnicalsTemplate):
   def __init__(self, **properties):

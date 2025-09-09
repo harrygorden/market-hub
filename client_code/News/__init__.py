@@ -1,5 +1,6 @@
 from ._anvil_designer import NewsTemplate
 from anvil import *
+import anvil.server
 
 class News(NewsTemplate):
   def __init__(self, **properties):
