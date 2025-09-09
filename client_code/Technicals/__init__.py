@@ -1,7 +1,7 @@
-from ._anvil_designer import HomepageTemplate
+from ._anvil_designer import TechnicalsTemplate
 from anvil import *
 
-class Homepage(HomepageTemplate):
+class Technicals(TechnicalsTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

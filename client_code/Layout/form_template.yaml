@@ -32,12 +32,17 @@ components:
   name: navigation_column
   properties: {}
   type: ColumnPanel
+- layout_properties: {slot: title}
+  name: Title
+  properties: {content: My Market Hub}
+  type: RichText
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate
 is_package: true
+layout_metadata: {description: Market Hub's navigation panel}
 slots:
-  primary_slot:
+  slot_content:
     index: 0
-    set_layout_properties: {full_width_row: true, grid_position: 'XMKVCF,CGSQKL'}
+    set_layout_properties: {grid_position: 'WQWLBJ,UMQEKZ'}
     target: {name: content_panel, type: container}
