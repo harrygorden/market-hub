@@ -1,16 +1,16 @@
 allow_embedding: false
 dependencies: []
-metadata: {title: HarrysMarketHub}
+metadata: {description: 'A central hub of news, events, and price action analysis to keep me on top of what''s happening in the markets.', logo_img: 'asset:u5914788576_httpss.mj.runKeclNKnKozg_A_stylized_candlestick_s_b18b0082-b701-4a00-b5d5-54e76fa53027_1.png', title: HarrysMarketHub}
 name: Harry's Market Hub
 package_name: Harry_s_Market_Hub
 renamed: true
 runtime_options:
   client_version: '3'
-  server_spec: {base: python310-minimal}
+  server_spec: {base: python310-standard}
   server_version: python3-sandbox
   version: 2
 services:
 - client_config: {}
-  server_config: {}
+  server_config: {auto_create_missing_columns: true}
   source: /runtime/services/tables.yml
 startup_form: Form1
