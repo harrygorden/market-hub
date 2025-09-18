@@ -1,9 +1,14 @@
 allow_embedding: false
-name: Custom HTML 1
-package_name: Custom_HTML_1
+metadata: {title: Harry's Market Hub}
+name: Harry's Market Hub
+package_name: Harry_s_Market_Hub
 runtime_options:
   client_version: '3'
-  server_spec: {base: python310-minimal}
+  server_spec: {base: python310-standard}
   server_version: python3-sandbox
   version: 2
-services: []
+services:
+- client_config: {}
+  server_config: {auto_create_missing_columns: true}
+  source: /runtime/services/tables.yml
+startup_form: Form1
